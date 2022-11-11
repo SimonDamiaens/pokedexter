@@ -1,9 +1,11 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+  import HomeFooter from '../components/HomeFooter.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
+  <main class="min-h-screen">
+    <div class="max-w-6xl m-auto">
+      <HomeFooter />
+    </div>
   </main>
 </template>
